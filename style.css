@@ -19,6 +19,7 @@ body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -150,7 +151,187 @@ body {
 }
 
 .flex-box-2 {
-    width: 300px;
+    width: 320px;
     height: 300px;
-    background-color: rgb(169, 231, 211);
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2 .flex-box-2 {
+    margin: 15px;
+    padding-left: 25px;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+.flex-box-2 img {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.flex-box-2 h1 {
+    padding-bottom: 20px;
+}
+
+.flex-box-2 p {
+    line-height: 1.5em;
+}
+
+#color1 {
+    background-color: #edf5f6;
+}
+
+#color2 {
+    background-color: #ffeeee;
+}
+
+#color3 {
+    background-color: #fff4d6;
+}
+
+.container3 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.container3-h1-p {
+    align-items: center;
+}
+
+.container3-h1-p h1,
+p {
+    padding-bottom: 20px;
+}
+
+.container3-h1-p h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cont3-image img {
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.h1-p-btn-3 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.container-button3 {
+    padding-top: 40px;
+}
+
+.container-button3 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white
+}
+
+.container-3-image img {
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.container-3 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.container-3-image {
+    margin-left: 80px;
+}
+
+.container-3 {
+    align-items: center;
+}
+
+.container-4-image img {
+    height: 350px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.h1-p-btn-4 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.h1-p-btn-4 p {
+    line-height: 1.3em;
+}
+
+.container-button4 {
+    margin-top: 30px;
+}
+
+.container-button4 a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container-4 {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.h1-p-btn-4 {
+    margin-left: 90px;
+}
+
+.container-5 {
+    text-align: center;
+}
+
+.container-5 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.container-5 p {
+    line-height: 1.3em;
+}
+
+.container-5 {
+    margin-top: 60px;
+}
+
+.form-bttton {
+    height: 200px;
+    width: 800px;
+    background-color: #ffeeee;
+    display: flex;
+}
+
+.Subscribe-mail {
+    margin-top: 80px;
+    height: 200px;
+    width: 800px;
+    background-color: #ffeeee;
+
+}
+
+.form-button-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
