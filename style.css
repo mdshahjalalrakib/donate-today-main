@@ -100,7 +100,6 @@ body {
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin-left: 373px;
 }
 
 #marked {
@@ -322,16 +321,70 @@ p {
     display: flex;
 }
 
-.Subscribe-mail {
-    margin-top: 80px;
+.subscribe {
+    margin-top: 60px;
+    display: flex;
+}
+
+.input-subsrcibe {
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    background-color: #edf5f6;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.button-subscribe {
+    border: none;
+    outline: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subscribe {
+    justify-content: center;
+}
+
+.form {
     height: 200px;
     width: 800px;
-    background-color: #ffeeee;
-
-}
-
-.form-button-5 {
+    background-color: #fff4d6;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: justify;
+
 }
+
+
+.footer-area {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.footer-area h2,
+h4 {
+    color: rgb(224, 215, 215);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-area h2 {
+    color: tomato;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-container {
+    justify-content: center;
+}
+
+.footer {}
