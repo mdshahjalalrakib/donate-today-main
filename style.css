@@ -235,11 +235,11 @@ p {
     background-color: red;
     font-size: 25px;
     border-radius: 5px;
-    color: white
+    color: white;
 }
 
 .container-3-image img {
-    height: 500px;
+    height: 450px;
     width: 500px;
     border-radius: 5px;
 }
