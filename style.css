@@ -318,10 +318,6 @@ p {
     display: flex;
 }
 
-.subscribe {
-    margin-top: 60px;
-    display: flex;
-}
 
 .input-subsrcibe {
     border: none;
@@ -331,6 +327,7 @@ p {
     border-top-left-radius: 5px;
     font-size: 15px;
     font-weight: bold;
+    border-bottom-left-radius: 5px;
 }
 
 .button-subscribe {
@@ -342,10 +339,15 @@ p {
     color: white;
     font-weight: bold;
     font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .subscribe {
+    margin-top: 60px;
+    display: flex;
     justify-content: center;
+    margin-top: -10px;
 }
 
 .form {
@@ -401,16 +403,4 @@ h4 {
 
 .center {
     margin-left: 60px;
-}
-
-.subscribe {
-    margin-top: -10px;
-}
-
-.input-subsrcibe {
-    border-bottom-left-radius: 5px;
-}
-
-.button-subscribe {
-    border-bottom-right-radius: 5px;
 }
