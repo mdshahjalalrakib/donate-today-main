@@ -1,17 +1,9 @@
 * {
     padding: 0px;
     margin: 0px;
-}
-
-body {
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
 }
+
 
 .container {
     height: 600px;
@@ -19,7 +11,9 @@ body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -27,6 +21,7 @@ body {
     color: white;
     font-size: 60px;
     font-weight: bold;
+    text-align: center;
 }
 
 .center p {
@@ -365,7 +360,6 @@ p {
 
 }
 
-
 .footer-area {
     width: 100%;
     height: 150px;
@@ -403,4 +397,20 @@ h4 {
     align-items: center;
     justify-content: center;
     align-items: justify;
+}
+
+.center {
+    margin-left: 60px;
+}
+
+.subscribe {
+    margin-top: -10px;
+}
+
+.input-subsrcibe {
+    border-bottom-left-radius: 5px;
+}
+
+.button-subscribe {
+    border-bottom-right-radius: 5px;
 }
